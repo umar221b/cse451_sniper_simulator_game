@@ -50,15 +50,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StructureHealthController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HumanHealthController.cs" />
         <option value="$PROJECT_DIR$/../../../../Fall 2019/Video Game Programming/Project/endless_frogger/Assets/Scripts/DeathMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Patrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeFlowManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SniperAimSway.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Patrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
       </list>
     </option>
   </component>

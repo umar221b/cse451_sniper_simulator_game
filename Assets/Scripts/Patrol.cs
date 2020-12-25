@@ -28,7 +28,7 @@ public class Patrol : MonoBehaviour {
         if (patrolRoute) {
             m_Target = patrolRoute.GetChild(patrolIndex);
             float distance = Vector3.Distance(transform.position, m_Target.position);
-            if (distance <= 0.3f) {
+            if (distance <= 1.1f) {
                 if (m_IdleTimer >= idleTime) {
                     if (m_RandomIndices)
                         patrolIndex = Random.Range(0, patrolRoute.childCount);

@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour {
 	Vector3 m_CapsuleCenter;
 	CapsuleCollider m_Capsule;
 	bool m_Crouching;
-
+	public GameObject marker;
 
 	void Start() {
 		EnemyManager.instance.RegisterEnemy();
@@ -43,6 +43,9 @@ public class Enemy : MonoBehaviour {
 
 		m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 		m_OrigGroundCheckDistance = m_GroundCheckDistance;
+
+		bool markersEnabled = PlayerPrefs.GetInt("enemey_markers", 1) == 1;
+		marker.SetActive(markersEnabled);
 	}
 
 

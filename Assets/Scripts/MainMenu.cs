@@ -20,4 +20,11 @@ public class MainMenu : MonoBehaviour {
         PlayerPrefs.SetFloat("highscore", 0);
         highscoreText.text = "Highscore: 0m";
     }
+    
+    public void SetEnemyMarkers(bool value) {
+        int intVal = 0;
+        if (value)
+            intVal = 1;
+        PlayerPrefs.SetInt("enemey_markers", intVal);
+    }
 }
